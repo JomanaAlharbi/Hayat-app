@@ -9,7 +9,7 @@ class ApiService {
   );
   static const geminiApiKey = String.fromEnvironment(
     'GEMINI_API_KEY',
-    defaultValue: 'AIzaSyCFltFDqgNFj2vz0TUoa639LGOfVRqt51o',
+    defaultValue: '',
   );
   static const geminiModel = String.fromEnvironment(
     'GEMINI_MODEL',
